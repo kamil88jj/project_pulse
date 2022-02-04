@@ -1,0 +1,273 @@
+@media (max-width: 1200px) {
+    .header {
+        padding: 0 80px 0 80px;
+    }
+    .promo {
+        background-size: 1200px 650px;
+        &__header {
+            font-size: 35px;
+            padding: 0 80px 0 0;
+        }
+        &__subheader {
+            font-size: 20px;
+            margin-top: 5px;
+            padding: 0 80px 0 0;
+        }
+        &__icons {
+            margin-top: 45px;
+            width: 481px;
+            padding: 0 46px 0 0;
+        }
+        &__icon {
+            font-size: 11px;
+            img {
+                width: 25%;
+            }
+        }
+        &__link{
+            padding-left: 233px;
+            font-size: 14px;
+        }
+    }
+    .button{
+        &_main {
+            width: 238px;
+            height: 44px;
+            font-size: 13px;
+        }
+    }
+    .heading {
+        font-size: 25px;
+    }
+    .advantages {
+        min-height: 385px;
+        &__icons {
+            font-size: 14px;
+            img{
+                width: 21%;
+                margin: 16px 90px;
+            }
+        }
+        &__subheader {
+            margin-top: 14px;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .promo {
+        background-size: 991px 650px;
+    }
+    .container {
+        max-width: 750px;
+    }
+    .promo {
+        .header {
+            padding: 0 60px 0 60px;
+            &__logo {
+                width: 286px;
+            }
+            &__official {
+                width: 75%;
+                font-size: 11px;
+                span {
+                    font-size: 17px;
+                }
+            }
+            &__phone {
+                font-size: 16px;
+            }
+            .button {
+                width: 148px;
+                height: 28px;
+            }
+        }
+        &__wrapper {
+            margin-top: 95px;
+        }
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+        &__icon {
+            font-size: 10px;
+            img{ 
+                width: 20%;
+                margin-bottom: 15px;
+            }
+        }
+        &__icons {
+            margin-top: 45px;
+            width: 473px;
+            padding: 0 52px 0 0;
+        }
+        &__link {
+            margin-top: 12px;
+            padding-left: 247px;
+            font-size: 12px;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 60px;
+            margin-left: 197px;
+            width: 200px;
+            height: 37px;
+            font-size: 11px;
+        }
+    }
+    .advantages {
+        padding: 49px 0 60px 0;
+        &__icons {
+            img {
+                width: 17%;
+            }
+        }
+    }
+    .heading {
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            padding: 0 20px 0 20px;
+            &__logo {
+                width: 235px;
+            }
+            &__official {
+                font-size: 10px;
+                span{
+                    font-size: 16px;
+                }
+            }
+            &__phone {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            .button {
+                width: 136px;
+                height: 25px;
+                font-size: 10px;
+            }
+        }
+        &__header {
+            margin-top: 10px;
+            padding: 0 20px 0 0;
+        }
+        &__subheader {
+            padding: 0 20px 0 0;
+            margin-top: 11px;
+        }
+        &__icons {
+            padding: 0 0 0 52px;
+            .button {
+                width: 191px;
+                height: 33px;
+                font-size: 10px;
+                margin-top: 65px;
+            } 
+        }
+        &__link {
+            padding-left: 251px;
+            font-size: 11px;
+            margin-top: 16px;
+        }
+    }
+    .heading {
+        font-size: 19px;
+    }
+    .advantages {
+        &__wrapper {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        &__icons {
+                font-size: 11px;
+            img {
+                width: 13%;
+                margin-top: 13px;
+                margin-left: 124px;
+            }
+        }
+        &__subheader {
+            width: 282px;
+            padding: 0 25px;
+            margin-top: 11px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        min-height: 545px;
+        background-size: 650px 720px;
+        .header {
+            padding: 0 5px 0 5px;
+            &__official {
+                font-size: 8px;
+                span {
+                    font-size: 9px;
+                }
+            }
+            &__phone {
+                font-size: 10px;
+                margin-bottom: 2px;
+            }
+        .button {
+            width: 100px;
+            height: 20px;
+            font-size: 7px;
+        }
+        }
+        &__header {
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 11px;
+            margin-top: 1px;
+        }
+        &__icons {
+            padding:0 0 0 40px;
+            width: 347px;
+            .button { 
+                width: 140px;
+                height: 30px;
+                font-size: 8px;
+                margin-left: 150px;
+            }
+        }
+        &__icon {
+            width: 100px;
+            font-size: 8px;
+        }
+    &__link {
+            padding-left: 177px;
+            font-size: 9px;
+            margin-top: 13px;
+            }   
+    }
+    .heading {
+        font-size: 16px;       
+    }
+    .advantages {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        &__icons {
+                font-size: 10px;
+        }
+        &__subheader {
+            padding: 0 29px;
+            font-size: 11px;
+        }
+    }
+}
