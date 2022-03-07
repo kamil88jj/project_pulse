@@ -53,7 +53,6 @@
             font-size: 12px;
         }
     }
-
 }
 
 @media (max-width: 991px) {
@@ -132,7 +131,24 @@
         font-size: 22px;
         margin-bottom: 35px;
     }
-
+    .reviews {
+        &__icons {
+            img {
+                width: 145px;
+                height: 145px;
+            }
+        }
+        &__wrapper {
+            hr {
+                margin-top: 25px;
+                width: 680px;
+            }
+        }
+        &__subheader {
+            width: 470px;
+            font-size: 13px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -204,6 +220,38 @@
             margin-top: 11px;
         }
     }
+    .catalog {
+        &__content_active {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .reviews {
+        &__wrapper {
+            hr {
+                width: 550px;
+            }
+        }
+        &__icons {
+            img {
+                width: 135px;
+                height: 135px;
+                margin-top: 10px;
+            }
+        }
+        &__description {
+            h4 {
+                font-size: 13px;
+            }
+            h5 {
+                font-size: 11px;
+            }
+        }
+        &__subheader {
+            width: 350px;
+            font-size: 12px;
+        }
+    }
 }
 
 @media (max-width: 575px) {
@@ -272,6 +320,42 @@
             font-size: 11px;
         }
     }
+    .catalog {
+        &__tab {
+            font-size: 10px;
+        }
+    }
+    .reviews {
+        &__wrapper {
+            margin-left: 20px;
+            hr {
+                width: 325px;
+            }
+        }
+            &__icons {
+            img {
+                width: 105px;
+                height: 105px;
+            }
+        }
+        &__description {
+            margin: 25px 0 0 25px;
+            h4 {
+                font-size: 11px;
+            }
+            h5 {
+                font-size: 10px;
+            }
+        }
+        &__subheader {
+            width: 200px;
+            font-size: 11px;
+            span {
+                line-height: 25px;
+            }
+        } 
+    }
 }
+
 
 
