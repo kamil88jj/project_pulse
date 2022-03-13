@@ -149,6 +149,33 @@
             font-size: 13px;
         }
     }
+    .modal {
+        width: 324px;
+        min-height: 355px;
+        padding: 8px 33px 8px 31px;
+        &__close {
+            right: -35px;
+            line-height: 16px;
+            font-size: 45px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__description {
+            font-size: 12px;
+        }
+    }
+    .feed-form {
+        width: 250px;
+        &_mt {
+            margin-top: 15px;
+        }
+    }
+    .button {
+        &_submit {
+            font-size: 15px;
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -220,6 +247,17 @@
             margin-top: 11px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 525px
+        }
+    }
+    .slick-slide {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
     .catalog {
         &__content_active {
             display: flex;
@@ -249,6 +287,61 @@
         }
         &__subheader {
             width: 350px;
+            font-size: 12px;
+        }
+    }
+    .footer {
+        &__info {
+            width: 360px;
+            height: 210px;
+            padding: 13px 31px 15px 31px;
+        }
+        &__addr {
+            font-size: 19px;
+            line-height: 15px;
+            }
+        &__phone {
+            font-size: 17px;
+        }
+        &__social-item {
+            width: 45px;
+            height: 45px;
+            img {
+                height: 22px;
+            }
+        }
+        &__meta {
+            width: 27px;
+        }
+    }
+    .modal {
+        width: 250px;
+        min-height: 270px;
+        padding: 3px 15px 2px 22px;
+        &__subtitle {
+            font-size: 13px;
+        }
+        &__description {
+            font-size: 10px;
+        }
+        &__close {
+            right: -27px;
+            line-height: 12px;
+            font-size: 35px;
+        }
+    }
+    .feed-form {
+        width: 190px;
+        &_mt {
+            margin-top: 10px;
+        }
+        input {
+            height: 30px;
+        }
+    }
+    .button {
+        &_submit {
+            height: 40px;
             font-size: 12px;
         }
     }
@@ -320,6 +413,17 @@
             font-size: 11px;
         }
     }
+    .carousel {
+        &__inner {
+            width: 290px;
+        }
+    }
+    .slick-slide {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
     .catalog {
         &__tab {
             font-size: 10px;
@@ -354,6 +458,22 @@
                 line-height: 25px;
             }
         } 
+    }
+    .modal {
+        width: 230px;
+        min-height: 250px;
+        padding: 3px 18px 2px 18px;
+        &__subtitle {
+            font-size: 11px;
+        }
+        &__description {
+            font-size: 9px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            margin-top: 15px;
+        }
     }
 }
 
