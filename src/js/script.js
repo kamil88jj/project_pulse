@@ -138,6 +138,7 @@ $('a[href^="#"').on('click', function() {
         return false;
     });
 
+    new WOW().init();
 });
 
 
