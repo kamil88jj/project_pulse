@@ -123,12 +123,12 @@ $(document).ready(function(){
         if ($(this).scrollTop() > 1800) {
             $('.pageup').fadeIn();
         } else {
-            $('.pageup').fadeOut(fast);
+            $('.pageup').fadeOut();
         }
     });
     
 
-$('a[href^="#"').on('click', function() {
+$('a[href=#up]').on('click', function() {
 
     const href = $(this).attr('href');
 
